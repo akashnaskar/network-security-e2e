@@ -26,6 +26,8 @@ from sklearn.ensemble import (
 
 import mlflow
 
+import dagshub
+dagshub.init(repo_owner='akashnaskar', repo_name='network-security-e2e', mlflow=True)
 
 
 
